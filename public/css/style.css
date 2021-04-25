@@ -1,0 +1,84 @@
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a:hover {
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    height: 91vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/homebg.jpg');
+    background-size: cover;
+}
+
+.links button {
+    background-color: #dfd9d9;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 50px;
+}
+
+.links button:focus {
+    outline: transparent;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .center h1 {
+        font-size: 30px;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.center h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.easybg {
+    height: 90vh;
+    width: 100vw;
+    background: url('/images/easybg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mediumbg {
+    height: 90vh;
+    width: 100vw;
+    background: url('/images/medium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hardbg {
+    height: 90vh;
+    width: 100vw;
+    background: url('/images/hard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
